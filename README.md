@@ -1,2 +1,3 @@
-# CCUDA
+# CUDA
 reading notes
+
