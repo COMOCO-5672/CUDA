@@ -1,4 +1,6 @@
 ﻿
+#include <cstdlib>
+
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 
@@ -36,6 +38,7 @@ int main()
         fprintf(stderr, "cudaDeviceReset failed!");
         return 1;
     }
+    system("pause()");
 
     return 0;
 }
