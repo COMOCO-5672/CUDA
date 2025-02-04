@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.shellArgs.windows": ["-NoExit", "-Command", "chcp 65001"],
+    // "terminal.integrated.encoding": "utf-8",
+    //"terminal.integrated.fontFamily": "Microsoft YaHei",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "cmd.exe /c \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvarsall.bat x64 && cl /EHsc ${file}\"",
+        // "cpp.mingw": "cmd.exe /c \"C:\\MinGW\\bin\\mingw32-make.exe && g++ ${file} -o ${fileDirname}/${fileBasenameNoExtension}.exe\""
+    },
+    "python.pythonPath": "C:/ProgramData/anaconda3/envs/FirstPyCUDA/python.exe",
+    "python.defaultInterpreterPath": "C:/ProgramData/anaconda3/envs/FirstPyCUDA/python.exe",
+    "python.terminal.activateEnvironment": true
+}
